@@ -2,6 +2,7 @@
 # Required Software 
 - Mysql/MariaDB
 - NodeJS
+- ExpressJS
 
 # How to Setup
 
