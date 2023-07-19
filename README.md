@@ -67,4 +67,4 @@ npm run start
 
 Download & Install Postman [Download Postman](https://www.postman.com/downloads/)
 
-Import Postman Collection File "Movie.postman_collection.json" or [Download Collection](./Movie.postman_collection.json)
+Import Postman Collection File "Movie.postman_collection.json" in "/rest_movie" folder
