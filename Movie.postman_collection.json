@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "86198beb-5e9d-4ee9-a1cd-88824ca01721",
+		"name": "Movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9991038",
+		"_collection_link": "https://cloudy-comet-2187.postman.co/workspace/Team-Workspace~72c3fd40-322c-40da-817b-e019af18c06c/collection/9991038-86198beb-5e9d-4ee9-a1cd-88824ca01721?action=share&creator=9991038&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "All Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Movies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"title\": \"Pengabdi Setan 2 Comunion\",\r\n      \"description\":\r\n        \"dalah sebuah film horor Indonesia tahun 2022 yang disutradarai dan ditulis oleh Joko Anwar sebagai sekue dari film tahun 2017, Pengabdi Setan\",\r\n      \"rating\": 7.0,\r\n      \"image\": \"\",\r\n      \"created_at\": \"2022-08-01 10:56:31\",\r\n      \"updated_at\": \"2022-08-13 09:30:23\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Movies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Movie",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"title\": \"Pengabdi Setan 2 Extreme\",\r\n      \"description\":\r\n        \"dalah sebuah film horor Indonesia tahun 2022 yang disutradarai dan ditulis oleh Joko Anwar sebagai sekue dari film tahun 2017, Pengabdi Setan\",\r\n      \"rating\": 7.0,\r\n      \"image\": \"\",\r\n      \"created_at\": \"2022-08-01 10:56:31\",\r\n      \"updated_at\": \"2022-08-13 09:30:23\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Movie",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
