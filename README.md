@@ -5,10 +5,19 @@
 
 # How to Setup
 
-### Download Laragon for setup mysql and nodejs [Laragon](https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe)
+Install Mysql & NodeJs 
 
+## Windows 
+###  Easy Bundle Mysql & NodeJs [Download Laragon](https://github.com/leokhoa/laragon/releases/download/6.0.0/laragon-wamp.exe)
+
+
+### Mac
+### Mamp [Download Mamp](https://www.mamp.info/en/downloads/)
+### NodeJS [Download NodeJS](https://nodejs.org/en/download) 
 
 # How to install
+
+## Open Command Prompt/ Terminal
 
 **Clone Repo :**
 
@@ -34,7 +43,7 @@ npm run dbcreate
 npm run dbmigrate
 ```
 
-**Run Unit Testing with Jest & Supertest :**
+**Run Unit Testing:**
 
 ```bash
 npm run test
