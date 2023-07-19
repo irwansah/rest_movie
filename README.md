@@ -64,4 +64,7 @@ npm run start
 
 **Test Endpoint Postman :**
 
+
+Download & Install Postman [Download Postman](https://www.postman.com/downloads/)
+
 Import Postman Collection [Download Collection](./Movie.postman_collection.json)
